@@ -103,3 +103,8 @@ img {
 li {
 	display: inline-block;
 }
+
+.footer-style {
+	border: 1px solid white;
+	background-color: #fff;
+}
