@@ -1,0 +1,101 @@
+body {
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #d3d3d3;
+}
+
+.logo {
+	height: 30px;
+	width: 30px;
+	margin-left: 225px;
+	padding-top: 10px;
+
+}
+
+nav {
+	position: fixed;
+	float: right;
+	border:1px solid red;
+	background-color: white;
+	margin-top: -50px;
+	padding: 16px 0px 25px 0px;
+}
+
+.nav-bar nav ul li {
+	float: right;
+	background-color:
+	font-weight:100;
+	font-size:20px;
+	font-family: arial; 
+	display: inline-block; 
+	color:gray;
+	padding: 0 14px 0 14px ;
+}
+
+.top-nav {
+	border: 2px solid white;
+	height: 75px;
+
+
+}
+
+ul {
+	padding left: 32px;
+	padding-right: 32px;
+}
+
+.introduction {
+	background-image: url("http://thinkful-ed.github.io/karma-clone/img/first-background.jpg");
+	background-repeat: no-repeat;
+	background-position: cover;
+	height: 700px;
+	width: 100%;
+	
+	}
+
+.intro-karma {
+	color:white;
+	text-align: center;
+	padding-top: 150px;
+	font-size: 4em;
+	font-family: "Times New Roman", Georgia, Serif;
+	line-height: 1px;
+
+}
+
+.introduction p {
+	color:white;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2em;
+}
+
+.background {
+	background-image: url("http://thinkful-ed.github.io/karma-clone/img/first-background.jpg");
+	background-repeat: no-repeat;
+	background-position: cover;
+	height: 1200px;
+	width: 100%;
+
+}
+
+#btn {
+	text-align: center;
+	font-size: 20px;
+}
+
+
+
+.center {
+	text-align: center;
+}
+img {
+	height: 48px;
+	width: 48px;
+	padding: 0px 6px 0 6px;
+
+}
+
+li {
+	display: inline-block;
+}
