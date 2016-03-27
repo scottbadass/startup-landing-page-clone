@@ -7,9 +7,17 @@
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	padding: 0px 15px;
 }
 
 .logo {
-	margin-left: 14px;
 	height: 70px;
+}
+
+.links {
+	float: right;
+}
+
+li {
+	display: inline-block;
 }
