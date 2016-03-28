@@ -87,7 +87,12 @@ ul li {
 	margin-right: 20px;
 }
 
+/* ######### styling middle section Icons #########*/
 
+.icons {
+	text-align: center;
+	
+}
 
 footer ul li {
 	padding: 0px 2px;
