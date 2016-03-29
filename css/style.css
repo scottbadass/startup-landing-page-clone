@@ -2,6 +2,7 @@
 /*hello world!*/
 html {
   box-sizing: border-box;
+  margin: -8px;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -14,11 +15,18 @@ body {
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
+	margin-right: -5px;
 
 }
   /*-------------Nav-bar styling --------*/
+  .logo{
+  	margin-top: 10px;
+  }
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+
 }
 .top-navigation > .content {
     width: 970px;
@@ -59,8 +67,10 @@ body {
 	background-position: 0 bottom;
 	overflow: auto;
 	text-align: center;
-	padding-top: 75px;
+	padding-top: 16em;
 	color: white;
+	font-weight: -600;
+	font-family: sans-serif;
 }
 
 /* ---------Button Styling-----*/
@@ -91,9 +101,10 @@ ul li {
 
 /* ######### styling middle section Icons #########*/
 
-.icons {
+.devices {
 	text-align: center;
-	
+	display: inline-block;
+	margin: 0 auto;
 }
 
 footer ul li {
