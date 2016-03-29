@@ -26,6 +26,7 @@ body {
     background-color: #fff;
     position: fixed;
     width: 100%;
+    z-index: 9999;
 
 }
 .top-navigation > .content {
@@ -69,7 +70,7 @@ body {
 	text-align: center;
 	padding-top: 16em;
 	color: white;
-	font-weight: -600;
+	font-weight: 100;
 	font-family: sans-serif;
 }
 
@@ -99,20 +100,34 @@ ul li {
 	margin-right: 20px;
 }
 
-/* ######### styling middle section Icons #########*/
-
-.devices {
+.cases {
 	text-align: center;
-	display: inline-block;
-	margin: 0 auto;
+	color: black;
+	font-weight: 200;
+	font-size: 3em;
 }
 
+.cases .devices {
+	box-sizing: border-box;
+	display: inline-block;
+	border: 1px solid black;
+	width:33.3333333%;
+	height:4em;
+	display: inline-block;
+}
+
+
+
 footer ul li {
-	padding: 0px 2px;
+	padding: 0px 1px;
 
 }
 
 footer {
 	color: black;
+}
+.copyright {
+	color: gray;
+	font-weight: 200;
 }
  
