@@ -1,106 +1,285 @@
+/* Navigation Section  */
+/*hello world!*/
+html {
+  box-sizing: border-box;
+  margin: -8px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
 body {
-	margin-left: 0px;
-	margin-right: 0px;
-	background-color: brown;
-}
-
-.logo {
-	height: 30px;
-	width: 30px;
-	margin-left: 225px;
-	padding-top: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	margin-right: -5px;
 
 }
-
-nav {
-	position: fixed;
-	float: right;
-	border:1px solid red;
-	background-color: white;
-	margin-top: -50px;
-	padding: 16px 0px 25px 0px;
-}
-
-.nav-bar nav ul li {
-	float: right;
-	background-color:
-	font-weight:100;
-	font-size:20px;
-	font-family: arial; 
-	display: inline-block; 
-	color:gray;
-	padding: 0 14px 0 14px ;
-}
-
-.top-nav {
-	border: 2px solid white;
-	height: 75px;
-
+  /*-------------Nav-bar styling --------*/
+  .logo{
+  	margin-top: 10px;
+  }
+.top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 
 }
-
-ul {
-	padding left: 32px;
-	padding-right: 32px;
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
 }
+
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+  /*------------- End of Nav-bar styling ---------*/
+
+/* --------- Backgroundimage styling ----------- */
 
 .introduction {
-	background-image: url("http://thinkful-ed.github.io/karma-clone/img/first-background.jpg");
+	background-image: url('../images/first-background.jpg');
+	background-position: center bottom;
 	background-repeat: no-repeat;
-	background-position: cover;
-	height: 700px;
-	width: 100%;
-	
-	}
-
-.intro-karma {
-	color:white;
+	background-size: cover;
+	height: 45.938rem;
+	background-position: 0 bottom;
+	overflow: auto;
 	text-align: center;
-	padding-top: 150px;
-	font-size: 4em;
-	font-family: "Times New Roman", Georgia, Serif;
-	line-height: 1px;
-
+	padding-top: 16em;
+	color: white;
+	font-weight: 100;
+	font-family: sans-serif;
 }
 
-.introduction p {
-	color:white;
-	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 2em;
+/* ---------Button Styling-----*/
+button {
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	display: block;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	color: white;
+	font-size: 1.125rem;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-radius: 4px;
 }
 
-.background {
-	background-image: url("http://thinkful-ed.github.io/karma-clone/img/first-background.jpg");
-	background-repeat: no-repeat;
-	background-position: cover;
-	height: 1200px;
-	width: 100%;
-
-}
-
-#btn {
-	text-align: center;
-	font-size: 20px;
-}
-
-
-
+/*--------- Footer styling ----------*/
 .center {
 	text-align: center;
 }
-img {
-	height: 48px;
-	width: 48px;
-	padding: 0px 6px 0 6px;
-
+ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 20px;
 }
 
-li {
+.cases {
+	text-align: center;
+	color: black;
+	font-weight: lighter;
+	font-size: 3em;
+	padding-top: 80px;
+}
+
+.cases .devices {
+	box-sizing: border-box;
+	display: inline-block;
+	border: 1px solid black;
+	width:33.3333333%;
+	height:4em;
 	display: inline-block;
 }
 
-.footer-style {
-	border: 1px solid white;
-	background-color: #fff;
+table {
+	margin: auto;
 }
+
+td > h4 {
+	font-size: 1.25em;
+	letter-spacing: 2px;
+	font-weight: 400;
+	color: black;
+
+}
+
+.icon-coffee {
+	padding: 0px 130px;
+}
+
+
+footer ul li {
+	padding: 0px 1px;
+
+}
+
+footer {
+	color: black;
+}
+.copyright {
+	color: gray;
+	font-weight: 200;
+}
+
+/*#################################################
+RESPONSIVE! */
+
+/* Smartphones (portrait and landscape)----------------*/
+@media only screen and (min-device-width: 320px) and (max-device-width:480px) {
+	/*Styles */
+}
+
+/* Smartphones (Landscape)--------------*/
+@media only screen and (min-width: 321px) {
+	 /* Styles */
+}
+
+/* Smartphones (Portrait)----------*/
+@media only screen and ( max-width: 320px) {
+	  /* Styles */
+}
+	
+/* iPads (portrait and landscape)------------*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
+	/* Styles */
+}
+
+/*iPads (Landscapte) ----------------*/
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation: portrait){
+	/* Styles */
+}
+
+/*iPads (Portrait) -------------*/
+@media only screen and (min-device-width:768px) and (max-device-width:1024px)and(orientation:portrait) {
+	/* Styles */
+}
+
+/*----------iPad 3 ----------------*/
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2){
+	/* Styles */
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:768px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2){
+ /* Styles */
+}
+
+/*------------Desktops and Laptops ---------------*/
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	/* Styles */
+}
+@media only screen and (min-width: 769px) and (max-width: 970px) {
+    /* Styles */
+    }
+
+@media only screen and (min-width: 971px) and (max-width: 1224px) {
+    /* Styles */
+  
+}
+
+/*---------- Large Screens --------------*/
+@media only screen (min-width:1225px) and (max-width: 1824px) {
+    /*Styles */
+    
+}
+
+/*-------iPhone 4 ------------*/
+@media only screen and (min-device-width: 320px) and (max-device-width:480px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) and (-webkit-max-device-pixel-ratio: 2) {
+    /* Styles */
+}
+
+/*------------iPhone 5------------*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    /* Styles */
+} 
+@media only screen and (min-device-width: 320px) and (max-device-width:568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    /* Styles */
+}
+
+/*------------iPhone6 ---------------*/
+ @media only screen and (min-device-width:375px) and (max-device-width:667px) and (orientation:landscape) and (-webkit-device-pixel-ratio: 2) {
+    /* Styles */
+ }
+
+ @media only screen and (min-device-width: 375px) and (max-device-width:667px) and (orientation:portrait) and (-webkit-device-pixel-ratio: 2) {
+    /* Styles */
+ }
+
+/*------------iPhone6 plus-------------*/
+
+@media only screen and (min-device-width:414px) and (max-device-width:736px) and (orientation:landscape) and (-webkit-device-pixel-ratio: 2) {
+    /* Styles */
+}
+
+@media only screen and (min-device-width:414px) and (max-device-width: 736px) and (orientation:portrait) and (-webkit-device-pixel-ratio: 2) {
+    /* Styles */
+}
+
+/*----------Samsung Galaxy S3----------*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px) and (orientation:landscape) and (-webkit-device-pixel-ratio: 2) {
+    /* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px) and (orientation:portrait) and (-webkit-device-pixel-ratio: 2) {
+    /* Styles */
+}
+
+/*-----------Samsung Galaxy S4---------*/
+@media only screen and (min-device-width: 320px) and (max-device-width:640px) and (orientation:landscape) and (-webkit-device-pixel-ratio: 3) {
+    /* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px) and (orientation:portrait) and (-webkit-device-pixel-ratio: 3) {
+    /* Styles */
+}
+
+/*---------- Samsung Galaxy s5 ------------------*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (orientation:landscape) and (-webkit-device-pixel-ratio: 3) {
+    /* Styles */
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (orientation:portrait) and (-webkit-device-pixel-ratio: 3) {
+    /* Styles */
+}
+
+
+
+
+
+
+
+
+
+
+
