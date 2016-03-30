@@ -105,6 +105,7 @@ ul li {
 	color: black;
 	font-weight: lighter;
 	font-size: 3em;
+	padding-top: 80px;
 }
 
 .cases .devices {
@@ -116,6 +117,21 @@ ul li {
 	display: inline-block;
 }
 
+table {
+	margin: auto;
+}
+
+td > h4 {
+	font-size: 1.25em;
+	letter-spacing: 2px;
+	font-weight: 400;
+	color: black;
+
+}
+
+.icon-coffee {
+	padding: 0px 130px;
+}
 
 
 footer ul li {
