@@ -149,5 +149,121 @@ RESPONSIVE! */
 	  /* Styles */
 }
 	
+/* iPads (portrait and landscape)------------*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
+	/* Styles */
+}
 
- 
+/*iPads (Landscapte) ----------------*/
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation: portrait){
+	/* Styles */
+}
+
+/*iPads (Portrait) -------------*/
+@media only screen and (min-device-width:768px) and (max-device-width:1024px)and(orientation:portrait) {
+	/* Styles */
+}
+
+/*----------iPad 3 ----------------*/
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2){
+	/* Styles */
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:768px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2){
+ /* Styles */
+}
+
+/*------------Desktops and Laptops ---------------*/
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	/* Styles */
+}
+@media only screen and (min-width: 769px) and (max-width: 970px) {
+    /* Styles */
+    }
+
+@media only screen and (min-width: 971px) and (max-width: 1224px) {
+    /* Styles */
+  
+}
+
+/*---------- Large Screens --------------*/
+@media only screen (min-width:1225px) and (max-width: 1824px) {
+    /*Styles */
+    
+}
+
+/*-------iPhone 4 ------------*/
+@media only screen and (min-device-width: 320px) and (max-device-width:480px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) and (-webkit-max-device-pixel-ratio: 2) {
+    /* Styles */
+}
+
+/*------------iPhone 5------------*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    /* Styles */
+} 
+@media only screen and (min-device-width: 320px) and (max-device-width:568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    /* Styles */
+}
+
+/*------------iPhone6 ---------------*/
+ @media only screen and (min-device-width:375px) and (max-device-width:667px) and (orientation:landscape) and (-webkit-device-pixel-ratio: 2) {
+    /* Styles */
+ }
+
+ @media only screen and (min-device-width: 375px) and (max-device-width:667px) and (orientation:portrait) and (-webkit-device-pixel-ratio: 2) {
+    /* Styles */
+ }
+
+/*------------iPhone6 plus-------------*/
+
+@media only screen and (min-device-width:414px) and (max-device-width:736px) and (orientation:landscape) and (-webkit-device-pixel-ratio: 2) {
+    /* Styles */
+}
+
+@media only screen and (min-device-width:414px) and (max-device-width: 736px) and (orientation:portrait) and (-webkit-device-pixel-ratio: 2) {
+    /* Styles */
+}
+
+/*----------Samsung Galaxy S3----------*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px) and (orientation:landscape) and (-webkit-device-pixel-ratio: 2) {
+    /* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px) and (orientation:portrait) and (-webkit-device-pixel-ratio: 2) {
+    /* Styles */
+}
+
+/*-----------Samsung Galaxy S4---------*/
+@media only screen and (min-device-width: 320px) and (max-device-width:640px) and (orientation:landscape) and (-webkit-device-pixel-ratio: 3) {
+    /* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px) and (orientation:portrait) and (-webkit-device-pixel-ratio: 3) {
+    /* Styles */
+}
+
+/*---------- Samsung Galaxy s5 ------------------*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (orientation:landscape) and (-webkit-device-pixel-ratio: 3) {
+    /* Styles */
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (orientation:portrait) and (-webkit-device-pixel-ratio: 3) {
+    /* Styles */
+}
+
+
+
+
+
+
+
+
+
+
+
