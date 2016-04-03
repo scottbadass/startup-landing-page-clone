@@ -1,11 +1,10 @@
 /* Navigation Section  */
-/*hello world!*/
 html {
-  box-sizing: border-box;
-  margin: -8px;
+	box-sizing: border-box;
+	margin: -8px;
 }
 *, *:before, *:after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 
@@ -108,15 +107,28 @@ ul li {
 	padding-top: 80px;
 }
 
-.cases .devices {
-	box-sizing: border-box;
-	display: inline-block;
-	border: 1px solid black;
-	width:33.3333333%;
-	height:4em;
+.cases .devices > li {
+	width:28%;
 	display: inline-block;
 }
+li {
+	display: list-item;
+}
+ul h3 {
+	font-size: 18px;
+}
+.content h2 {
+	display: block;
+	color: #1d1e21;
+	font-size: 42px;
+	font-weight: 300;
+}
+.caption h3 {
+	font-weight: 400;
+	font-size: 1.456rem;
+}
 
+/* styling for the table
 table {
 	margin: auto;
 }
@@ -126,9 +138,10 @@ td > h4 {
 	letter-spacing: 2px;
 	font-weight: 400;
 	color: black;
+}
+styling for the table*/
 
 }
-
 .icon-coffee {
 	padding: 0px 130px;
 }
